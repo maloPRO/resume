@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .main {
+        @apply bg-neutral-200 w-screen min-h-screen p-20 flex flex-col gap-4;
+    }
+    .heading {
+        @apply text-lg font-bold border-b-2 border-neutral-700;
+    }
+}
